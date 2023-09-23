@@ -1,0 +1,11 @@
+name: ml
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+      - notebook
+      - pandas
+      - imblearn
+      - matplotlib
+      - scikit-learn
